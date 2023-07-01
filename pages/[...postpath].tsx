@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://remedyabruptness.com/akq7w7aer?key=384840ab73d0510166349cf48ae4ba5a`
+					`https://bookstyro.blogspot.com/2023/06/aimer-sans-jalousie-etablir-la.html`
 				}`,
 			},
 		};
